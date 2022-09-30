@@ -1,3 +1,6 @@
+/*
+	이진 검색
+*/
 function binarySearch(arr, elem) {
 	var start = 0;
 	var end = arr.length - 1;

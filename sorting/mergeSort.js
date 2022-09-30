@@ -1,4 +1,6 @@
-// 합병 정렬
+/*
+	합병정렬
+*/
 // 배열 합병
 function merge(arr1, arr2) {
 	let results = [];

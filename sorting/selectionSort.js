@@ -1,3 +1,6 @@
+/*
+	선택 정렬
+*/
 function selectionSort(arr) {
 	for(var i = 0; i < arr.length; i++) {
 		var lowest = i;

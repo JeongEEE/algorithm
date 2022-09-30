@@ -1,4 +1,6 @@
-// Search Naive String
+/*
+	나이브 문자열 검색
+*/
 function naiveSearch(long, short) {
 	var count = 0;
 	for(var i = 0; i < long.length; i++) {

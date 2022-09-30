@@ -1,4 +1,6 @@
-// 삽입정렬
+/*
+	삽입정렬
+*/
 function insertionSort(arr) {
 	for(var i = 1; i < arr.length; i++) {
 		var currentVal = arr[i];
