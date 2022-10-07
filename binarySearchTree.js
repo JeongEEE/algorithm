@@ -71,7 +71,7 @@ class BinarySearchTree {
 		}
 		return false;
 	}
-	
+
 	BFS() { // 너비 우선 탐색
 		var data = [];
 		var queue = [];
@@ -104,6 +104,16 @@ class BinarySearchTree {
 			if(node.left) traverse(node.left);
 			if(node.right) traverse(node.right);
 			data.push(node.value);
+		}
+		traverse(this.rootl);
+		return data;
+	}
+	DFSInOrder() {
+		var data = [];
+		function traverse(node) {
+			if(node.left) traverse(node.left);
+			data.push(node.value);
+			if(node.right) traverse(node.right);
 		}
 		traverse(this.rootl);
 		return data;
