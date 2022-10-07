@@ -71,6 +71,43 @@ class BinarySearchTree {
 		}
 		return false;
 	}
+	
+	BFS() { // 너비 우선 탐색
+		var data = [];
+		var queue = [];
+		var node = this.root;
+		queue.push(node);
+
+		while(queue.length) { // 큐 길이가 존재할때
+			node = queue.shift();
+			data.push(node);
+			if(node.left) queue.push(node.left);
+			if(node.right) queue.push(node.right);
+		}
+		return data;
+	}
+	DFSPreOrder() { // 깊이 우선 탐색
+		var data = [];
+		var current = this.root;
+		function traverse(node) {
+			data.push(node);
+			if(node.left) traverse(node.left);
+			if(node.right) traverse(node.right);
+		}
+		traverse(current);
+
+		return data;
+	}
+	DFSPostOrder() { // 후위 순회
+		var data = [];
+		function traverse(node) {
+			if(node.left) traverse(node.left);
+			if(node.right) traverse(node.right);
+			data.push(node.value);
+		}
+		traverse(this.rootl);
+		return data;
+	}
 }
 
 //         10
