@@ -1,4 +1,4 @@
-# Javascript 알고리즘 공부
+# Javascript 알고리즘 공부 ⭐️
 ----
 - 재귀함수
 - 선형검색
@@ -65,9 +65,15 @@
 ## Section 4 ⭐️
 1. 자릿수의 합
 2. 뒤집은 소수
-3. 멘토링
+3. 멘토링 ⭐️
 4. 졸업선물
 5. K번째 큰수
 ----
 ## Section 5
 1. 두 배열 합치기
+2. 공통 원소 구하기
+3. 연속부분수열 1 (Two Pointers Algorithm) ⭐️
+4. 연속부분수열 2 (Two Pointers Algorithm) ⭐️
+5. 최대 매출 (Sliding Window)
+6. 학급 회장 (Hash Map)
+7. 아나그램 (Hash Map)
