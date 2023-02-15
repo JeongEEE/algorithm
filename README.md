@@ -77,3 +77,10 @@
 5. 최대 매출 (Sliding Window)
 6. 학급 회장 (Hash Map)
 7. 아나그램 (Hash Map)
+8. 모든 아나그램 찾기 (Hash & Sliding Window && Two Pointers Algorithm) ⭐️
+----
+## Section 6
+1. 올바른 괄호 (스택)
+2. 괄호 문자 제거 (스택)
+3. 크레인 인형뽑기 (스택) ⭐️
+4. 후위식 연산 (postfix)
