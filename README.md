@@ -1,5 +1,8 @@
 # Javascript 알고리즘 공부 ⭐️
 ----
+Visualgo 참고 
+[https://visualgo.net/en](https://visualgo.net/en)
+----
 - 재귀함수
 - 선형검색
 - 이진검색
@@ -87,6 +90,10 @@
 5. 쇠막대기 (스택)
 6. 공주 구하기 (큐)
 7. 교육과정 설계
+----
+## Section 7
+1. 선택정렬
+2. 버블정렬
 
 # 🍎 Programmers
 
