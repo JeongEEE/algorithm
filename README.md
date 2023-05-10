@@ -94,6 +94,8 @@ Visualgo 참고
 ## Section 7
 1. 선택정렬
 2. 버블정렬
+3. Special Sort
+4. 삽입정렬
 
 # 🍎 Programmers
 
