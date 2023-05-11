@@ -96,6 +96,9 @@ Visualgo 참고
 2. 버블정렬
 3. Special Sort
 4. 삽입정렬
+5. Least Recently Used(카카오 캐시 문제 변형)
+6. 장난꾸러기 현수
+7. 좌표 정렬
 
 # 🍎 Programmers
 
