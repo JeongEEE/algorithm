@@ -99,6 +99,9 @@ Visualgo 참고
 5. Least Recently Used(카카오 캐시 문제 변형)
 6. 장난꾸러기 현수
 7. 좌표 정렬
+8. 회의실 배정
+9. 결혼식
+10. 이분 검색
 
 # 🍎 Programmers
 
