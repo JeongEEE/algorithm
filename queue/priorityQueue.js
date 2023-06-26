@@ -9,7 +9,7 @@ class PriorityQueue {
 	}
 	bubbleUp() {
 		let idx = this.values.length - 1;
-		const element = this.valjues[idx];
+		const element = this.values[idx];
 		while(idx > 0) {
 			let parentIdx = Math.floor((idx - 1)/2);
 			let parent = this.values[parentIdx];
@@ -21,7 +21,7 @@ class PriorityQueue {
 	}
 	dequeue() {
 		const min = this.values[0];
-		const end = this.value.pop();
+		const end = this.values.pop();
 		if(this.values.length > 0) {
 			this.values[0] = end;
 			this.sinkDown();
