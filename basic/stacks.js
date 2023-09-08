@@ -37,3 +37,5 @@ class Stack {
 		return temp.value;
 	}
 }
+
+let stack = new Stack();
