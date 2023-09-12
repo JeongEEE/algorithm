@@ -19,6 +19,7 @@ function solution(n) {
     else {
       DFS(parseInt(n/2));
       console.log(n%2)
+      // 스택 프레임에 쌓여서 pop 순서로 로그가 찍힘
       answer+=String(n%2);
     }
   }
